@@ -1,16 +1,26 @@
 module Main exposing (main)
 
-import Element as E
+import View as V
+
+
+
+--MAIN
 
 
 main =
     view
 
 
+
+--VIEW
+
+
 view =
-    E.layout [] row
+    V.view
 
 
-row =
-    E.row [ E.explain Debug.todo ] [ E.text "row one.." ]
-    
+
+--MODEL
+--model = {}
+--UPDATE
+--update = \a b -> b
