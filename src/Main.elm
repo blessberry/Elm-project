@@ -1,7 +1,16 @@
 module Main exposing (main)
 
-import Html as H
+import Element as E
 
 
 main =
-    H.text "hello elmm...oops"
+    view
+
+
+view =
+    E.layout [] row
+
+
+row =
+    E.row [ E.explain Debug.todo ] [ E.text "row one.." ]
+    
