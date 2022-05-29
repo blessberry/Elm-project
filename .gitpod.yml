@@ -2,3 +2,6 @@
 vscode:
   extensions:
     - asvetliakov.vscode-neovim
+tasks:
+  - init: npm i -g elm elm-format elm-live 
+    command: elm-live src/Main.elm 
